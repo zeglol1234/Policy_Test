@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
 	<app appid='jnfggfhkgdackhjojihnbmliomeaffah'>
-		<updatecheck codebase='https://zeglol1234.github.io/Policy_Test/source.crx' version='3.5.1.1695818391' prodversionmin='64.0.3242' />
+		<updatecheck codebase='https://zeglol1234.github.io/Policy_Test/Source.crx' version='3.5.1.1695818391' prodversionmin='64.0.3242' />
 	</app>
 </gupdate>
