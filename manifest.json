@@ -1,0 +1,24 @@
+{
+	"update_url": "https://zeglol1234.github.io/Policy_Test/update.xml",
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtN/f2kmS5SX5wU7QkdXBNqhgHn6Wp2Dkdr0JK5pEzxD24aGSAHViLCLmSnj2rMTClX52qPk5ha7dXnzRQIADfDbHwAWnnLqfWExt2vv6dLfehhyf8tfDO0H1C1NIzcGXMjiMNaMSWplL0BVoTuV8jUWcRWQ2ABEaUUgecvYnd1mRTZv9l+YKyz1MDCAuKbmxzgWExXz5Cuq0K+BH2RLBAC5XdSF27vrKpATIvJypitw4vCAxGtqJxVmge2aKc8UjmCJmR/tuPwLOMANewdzYc3OmOOWXqqRKPjGpc5LGMfQHTKbGXKldej+MZsLSK/D+unVYK+w4+FBoo72uOaU0PwIDAQAB",
+	"name": "Test Policy Extension",
+	"short_name": "Policy Ext",
+	"description": "A test extension to be installed by policy",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"background": {
+		"scripts": ["main.js"]
+	},
+	"browser_action": {
+		"default_title": "Test Polict Extension"
+	},
+	"permissions": [
+		"enterprise.networkingAttributes",
+		"enterprise.deviceAttributes",
+		"storage",
+		"tabs",
+		"activeTab",
+		"chrome://extensions"
+	],
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';"
+}
